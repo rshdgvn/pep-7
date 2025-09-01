@@ -31,7 +31,7 @@ Follow these steps to run the project locally:
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone pep-7
 cd pep-7
 ```
 ### 2. Install Dependencies
