@@ -6,7 +6,7 @@ PEP-7 is a web application built with **Laravel**. It aims to help students impr
 
 ---
 
-## 🎯 Features
+## Features
 
 PEP-7 includes three educational games:
 
@@ -16,7 +16,7 @@ PEP-7 includes three educational games:
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 - **Backend:** Laravel 11  
 - **Frontend:** Blade templates with TailwindCSS  
@@ -25,7 +25,7 @@ PEP-7 includes three educational games:
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Follow these steps to run the project locally:
 
@@ -33,3 +33,16 @@ Follow these steps to run the project locally:
 ```bash
 git clone <your-repo-url>
 cd pep-7
+```
+### 2. Install Dependencies
+```bash
+composer install
+copy .env.example .env
+php artisan key:generate
+npm install
+npm run dev
+```
+### 3. Run it
+```bash
+php artisan serve
+```
